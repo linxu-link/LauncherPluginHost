@@ -1,8 +1,0 @@
-com.example.plugin.weather.weather-plugin-pngs-0 /home/link/AndroidStudioProjects/LauncherPluginHost/weather-plugin/build/generated/res/pngs/debug
-com.example.plugin.weather.weather-plugin-updated_navigation_xml-1 /home/link/AndroidStudioProjects/LauncherPluginHost/weather-plugin/build/generated/updated_navigation_xml/debug
-com.example.plugin.weather.weather-plugin-packageDebugResources-2 /home/link/AndroidStudioProjects/LauncherPluginHost/weather-plugin/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.plugin.weather.weather-plugin-packageDebugResources-3 /home/link/AndroidStudioProjects/LauncherPluginHost/weather-plugin/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.plugin.weather.weather-plugin-debug-4 /home/link/AndroidStudioProjects/LauncherPluginHost/weather-plugin/build/intermediates/merged_res/debug/mergeDebugResources
-com.example.plugin.weather.weather-plugin-debug-5 /home/link/AndroidStudioProjects/LauncherPluginHost/weather-plugin/src/debug/res
-com.example.plugin.weather.weather-plugin-main-6 /home/link/AndroidStudioProjects/LauncherPluginHost/weather-plugin/src/main/res
-gradleHome-0 /home/link/.gradle
