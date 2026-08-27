@@ -1,0 +1,78 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:2:1-44:12
+MERGED from [:plugin-api] /home/link/AndroidStudioProjects/LauncherPluginHost/plugin-api/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml
+	android:sharedUserId
+		ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:4:5-46
+	android:versionName
+		INJECTED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.QUERY_ALL_PACKAGES
+ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:7:5-8:53
+	tools:ignore
+		ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:8:9-50
+	android:name
+		ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:7:22-74
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:9:22-74
+permission#com.android.systemui.permission.PLUGIN
+ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:12:5-14:47
+	android:protectionLevel
+		ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:14:9-44
+	android:name
+		ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:13:9-62
+application
+ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:16:5-42:19
+INJECTED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:16:5-42:19
+	android:extractNativeLibs
+		INJECTED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml
+	android:supportsRtl
+		ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:21:9-35
+	android:label
+		ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:18:9-43
+	android:persistent
+		ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:19:9-34
+	android:allowBackup
+		ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:20:9-36
+	android:theme
+		ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:22:9-60
+	android:name
+		ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:17:9-46
+activity#com.android.launcher3.CustomWidgetHostActivity
+ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:33:9-40:20
+	android:exported
+		ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:34:13-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:36:13-39:29
+action#android.intent.action.MAIN
+ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:38:27-74
+uses-sdk
+INJECTED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml
+INJECTED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml
+MERGED from [:plugin-api] /home/link/AndroidStudioProjects/LauncherPluginHost/plugin-api/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:plugin-api] /home/link/AndroidStudioProjects/LauncherPluginHost/plugin-api/build/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml

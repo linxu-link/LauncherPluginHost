@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="weather_accent">#4FC3F7</color>
+    <color name="weather_card_bg">#1E2430</color>
+    <color name="weather_card_stroke">#3A4A5E</color>
+    <color name="weather_cloud">#90A4AE</color>
+    <color name="weather_rain">#4FC3F7</color>
+    <color name="weather_sun">#FFCA28</color>
+    <color name="weather_temp">#FFFFFF</color>
+    <color name="weather_title_text">#E8EEF7</color>
+    <color name="weather_value_text">#CBD6E3</color>
+</resources>

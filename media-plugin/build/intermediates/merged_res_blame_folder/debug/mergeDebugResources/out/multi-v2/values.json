@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.plugin.media.media-plugin-mergeDebugResources-1:/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/link/AndroidStudioProjects/LauncherPluginHost/media-plugin/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "7,8,9,10,2,3,5,4,6",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "312,360,413,461,55,104,209,157,260",
+                        "endColumns": "47,52,47,49,48,52,50,51,51",
+                        "endOffsets": "355,408,456,506,99,152,255,204,307"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,103,156,204,254,303,356,407,459",
+                        "endColumns": "47,52,47,49,48,52,50,51,51",
+                        "endOffsets": "98,151,199,249,298,351,402,454,506"
+                    }
+                }
+            ]
+        }
+    ]
+}

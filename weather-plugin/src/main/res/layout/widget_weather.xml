@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 天气桌面卡片插件布局：180dp 正方形紧凑卡片。 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="180dp">
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:background="@drawable/weather_card"
+        android:padding="12dp">
+
+        <!-- 顶部：城市 + 时钟 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/weather_city"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="上海"
+                android:textColor="@color/weather_title_text"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:ellipsize="end" />
+
+            <TextView
+                android:id="@+id/weather_clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/weather_value_text"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <!-- 中部：图标 + 温度 + 描述 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp">
+
+            <com.example.plugin.weather.WeatherIconView
+                android:id="@+id/weather_icon"
+                android:layout_width="64dp"
+                android:layout_height="64dp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="6dp">
+
+                <TextView
+                    android:id="@+id/weather_temp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="26°"
+                    android:textColor="@color/weather_temp"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/weather_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-2dp"
+                    android:text="多云转晴"
+                    android:textColor="@color/weather_accent"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 底部：未来 3 天 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <com.example.plugin.weather.WeatherIconView
+                    android:id="@+id/forecast_icon_1"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:tag="sun" />
+
+                <TextView
+                    android:id="@+id/forecast_temp_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="26°"
+                    android:textColor="@color/weather_value_text"
+                    android:textSize="9sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <com.example.plugin.weather.WeatherIconView
+                    android:id="@+id/forecast_icon_2"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:tag="cloud" />
+
+                <TextView
+                    android:id="@+id/forecast_temp_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="22°"
+                    android:textColor="@color/weather_value_text"
+                    android:textSize="9sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <com.example.plugin.weather.WeatherIconView
+                    android:id="@+id/forecast_icon_3"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:tag="rain" />
+
+                <TextView
+                    android:id="@+id/forecast_temp_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dp"
+                    android:text="19°"
+                    android:textColor="@color/weather_value_text"
+                    android:textSize="9sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

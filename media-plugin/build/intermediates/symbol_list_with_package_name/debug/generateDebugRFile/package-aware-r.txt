@@ -1,0 +1,24 @@
+com.example.plugin.media
+color widget_accent
+color widget_accent_dark
+color widget_btn_bg
+color widget_btn_text
+color widget_card_bg
+color widget_card_stroke
+color widget_time_text
+color widget_title_text
+color widget_value_text
+drawable widget_btn
+drawable widget_card
+drawable widget_disc
+id widget_btn_next
+id widget_btn_play
+id widget_btn_prev
+id widget_clock
+id widget_disc
+id widget_lyric
+id widget_ring_progress
+id widget_time_cur
+id widget_time_total
+id widget_title
+layout widget_view

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.plugin.weather.weather-plugin-debug-3:/layout_widget_weather.xml.flat",
+        "source": "com.example.plugin.weather.weather-plugin-main-5:/layout/widget_weather.xml"
+    },
+    {
+        "merged": "com.example.plugin.weather.weather-plugin-debug-3:/drawable_weather_card.xml.flat",
+        "source": "com.example.plugin.weather.weather-plugin-main-5:/drawable/weather_card.xml"
+    }
+]

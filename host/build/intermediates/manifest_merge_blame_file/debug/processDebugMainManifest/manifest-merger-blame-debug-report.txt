@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.launcher3"
+4    android:sharedUserId="android.uid.system"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+8-->INJECTED
+9        android:minSdkVersion="33"
+9-->INJECTED
+10        android:targetSdkVersion="33" />
+10-->INJECTED
+11
+12    <!-- The host app runs as a system UID so it can load plugin APKs. -->
+13    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+13-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:7:5-8:53
+13-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:7:22-74
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:9:5-77
+14-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:9:22-74
+15
+16    <!-- Permission that every plugin must hold. Mirrors SystemUI's plugin permission. -->
+17    <permission
+17-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:12:5-14:47
+18        android:name="com.android.systemui.permission.PLUGIN"
+18-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:13:9-62
+19        android:protectionLevel="signature" />
+19-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:14:9-44
+20
+21    <application
+21-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:16:5-42:19
+22        android:name="com.android.launcher3.LauncherPluginHostApp"
+22-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:17:9-46
+23        android:allowBackup="false"
+23-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:20:9-36
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+25-->INJECTED
+26        android:label="LauncherPluginHost"
+26-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:18:9-43
+27        android:persistent="true"
+27-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:19:9-34
+28        android:supportsRtl="true"
+28-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:21:9-35
+29        android:testOnly="true"
+30        android:theme="@android:style/Theme.Material.Light" >
+30-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:22:9-60
+31
+32        <!-- <activity -->
+33        <!-- android:name=".PluginHostDemoActivity" -->
+34        <!-- android:exported="true"> -->
+35        <!-- <intent-filter> -->
+36        <!-- <action android:name="android.intent.action.MAIN" /> -->
+37        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+38        <!-- </intent-filter> -->
+39        <!-- </activity> -->
+40
+41        <activity
+41-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:33:9-40:20
+42            android:name="com.android.launcher3.CustomWidgetHostActivity"
+42-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:34:13-53
+43            android:exported="true" >
+43-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:35:13-36
+44            <intent-filter>
+44-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:36:13-39:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:37:17-69
+45-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:37:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:38:17-77
+47-->/home/link/AndroidStudioProjects/LauncherPluginHost/host/src/main/AndroidManifest.xml:38:27-74
+48            </intent-filter>
+49        </activity>
+50    </application>
+51
+52</manifest>

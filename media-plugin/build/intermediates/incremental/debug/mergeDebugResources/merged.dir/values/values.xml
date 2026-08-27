@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="widget_accent">#4FC3F7</color>
+    <color name="widget_accent_dark">#1E88E5</color>
+    <color name="widget_btn_bg">#2A3444</color>
+    <color name="widget_btn_text">#FFFFFF</color>
+    <color name="widget_card_bg">#1E2430</color>
+    <color name="widget_card_stroke">#3A4A5E</color>
+    <color name="widget_time_text">#FFFFFF</color>
+    <color name="widget_title_text">#E8EEF7</color>
+    <color name="widget_value_text">#CBD6E3</color>
+</resources>

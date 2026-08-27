@@ -1,0 +1,23 @@
+com.example.plugin.weather
+color weather_accent
+color weather_card_bg
+color weather_card_stroke
+color weather_cloud
+color weather_rain
+color weather_sun
+color weather_temp
+color weather_title_text
+color weather_value_text
+drawable weather_card
+id forecast_icon_1
+id forecast_icon_2
+id forecast_icon_3
+id forecast_temp_1
+id forecast_temp_2
+id forecast_temp_3
+id weather_city
+id weather_clock
+id weather_desc
+id weather_icon
+id weather_temp
+layout widget_weather
