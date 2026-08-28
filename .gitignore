@@ -8,6 +8,5 @@ build/
 /captures
 .externalNativeBuild
 .cxx
-keystore/
 host/libs/
 *.apk
